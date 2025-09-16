@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+    .tabela1{
+            border: solid black;
+
+        }
+        .tabela1 th{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+        }
+
+        .tabela2{
+            border: solid black;
+        }
+
+        .tabela2 th{
+            background-color: grey;
+            color: white;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tabela3 {
+            border: solid black;
+            color: blue;
+        }
+
+        .tabela3 th{
+            background-color: black;
+            color: rgb(0, 55, 255);
+            padding: 10px;
+            font-family: arial, Arial, Helvetica, sans-serif;
+        }
+
+        .tabela4 {
+            border: solid black;
+        }
+
+        .tabela4 th {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            font-family: arial;
+
+        }
+
+        .tabela5{
+            border: solid black;
+            font-size: 25px;
+        }
+
+        .tabela5 th {
+             background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            font-family: arial;
+            font-size: 25px;
+
+        }
+
+        .tabela6 {
+            border: solid black;
+        }
+
+        .tabela6 th {
+            background-color: antiquewhite;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tabela7 {
+            border: solid black;
+            text-align: center;
+        }
+
+        .tabela7 th {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .tabela8 {
+            border: 10px solid black;
+        }
+
+        .tabela8 th {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+
+        }
+
+        .tabela9 {
+            border: solid black;
+            color: red;
+        }
+
+        .tabela9 th {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+
+
+        }
+
+        .tabela10{
+            border: solid black;
+            padding: 5px;
+        }
+
+        .tabela10 th {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tabela11 {
+            border: solid black;
+            padding: 5px;
+        }
+
+        .tabela11 th{
+             background-color: black;
+            color: white;
+            padding: 15px;
+            font-family: italic;
+        }
+
+
+        .tabela12 {
+            border: solid black;
+            padding: 5px;
+        }
+
+        .tabela12  th{
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .tabela13 {
+            border: solid black;
+            padding: 5px;
+        }
+
+        .tabela13 th {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .tabela14 {
+            border: solid black;
+            padding: 5px;
+        }
+
+        .tabela14 th {
+
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        .tabela14 td {
+          color: green;
+          padding: 10px;
+        }
+
+        .tabela15 {
+            border: solid black;
+            padding: 5px;
+        }
+
+
+        .tabela15 th {
+  
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-family: 'Georgia', serif;
+        }
+
+
+        .tabela15 td {
+        font-family: 'Georgia', serif;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .tabela16 {
+        border: solid black;
+        padding: 5px;
+    }
+
+
+    .tabela16 th {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .tabela16 tr:nth-child(2) {
+        background-color: #ffd54f;
+    }
+
+
+    .tabela17 {
+        border: solid black;
+        padding: 5px;
+    }
+    .tabela17 th {
+        background-color: #222;
+        color: white;
+        padding: 15px;
+        font-family: 'Tahoma', sans-serif;
+    }
+
+    .tabela18 {
+  border: solid black;
+  padding: 5px;
+}
+
+.tabela18 th {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-family: 'Verdana', sans-serif;
+}
+
+.tabela18 td {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.tabela19 {
+  border: solid black;
+  padding: 5px;
+}
+
+.tabela19 th {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-family: 'Georgia', serif;
+}
+
+.tabela19 td {
+  padding: 10px;
+}
+
+.tabela20 {
+  border: solid black;
+  padding: 5px;
+}
+
+.tabela20 th {
+  background-color: #4a148c;
+  color: #fff;
+  padding: 15px;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.tabela20 td {
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: #e1bee7;
+  color: #000;
+}
+
+
+
+        </style>
+</head>
+<body>
+    <table class="tabela1">
+        <tr>
+            <th>item</th>
+            <th>quantidade</th>
+            
+        </tr>
+
+        <tr>
+            <td>cafe</td>
+            <td>08</td>
+           
+        </tr>
+
+        <tr><td>maça</td>
+        <td>22</td></tr>
+
+
+    </table><br><br>
+
+    <table class="tabela2">
+        <tr>
+            <th>nome</th>
+            <th>idade</th>
+        </tr>
+        <tr>
+            <td>jorge</td>
+            <td>92</td>
+           
+        </tr>
+
+        <tr>
+            <td>gurtavo</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>marco</td>
+            <td>99</td>
+        </tr>
+
+        <tr>
+            <td>josias
+            </td>
+            <td>44</td>
+        </tr>
+
+    </table><br><br>
+
+    <table class="tabela3">
+        <tr>
+            <th>dia</th>
+            <th>atividade</th>
+        </tr>
+
+        <tr>
+            <td>22
+            </td>
+            <td>festa</td>
+        </tr>
+
+        <tr>
+            <td>20</td>
+            <td>passeio</td>
+        </tr>
+
+        <tr>
+            <td>18</td>
+            <td>passeio2</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>fiesta2</td>
+        </tr>
+
+        <tr>
+            <td>30</td>
+            <td>passeio3</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela4">
+        <tr>
+            <th>produto</th>
+            <th>preço</th>
+            <th>categoria</th>
+        </tr>
+
+        <tr>
+            <td>maça</td>
+            <td>3,00</td>
+            <td>01</td>
+        </tr>
+
+        <tr>
+            <td>garrafa</td>
+            <td>8,00</td>
+            <td>08</td>
+        </tr>
+
+        <tr>
+            <td>lapis</td>
+            <td>1,00</td>
+            <td>10</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela5">
+        <tr>
+            <th>aluno</th>
+            <th>nota</th>
+            
+        </tr>
+
+        <tr>
+            <td>gustavo</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>marcos</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td>julia</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td>livia</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td>abel</td>
+            <td>10</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela6">
+        <tr>
+            <th>prato</th>
+            <th>dia</th>
+        </tr>
+
+        <tr>
+            <td>bolo</td>
+            <td>30</td>
+        </tr>
+
+        <tr>
+            <td>cafe</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>pastel</td>
+            <td>08</td>
+        </tr>
+
+        <tr>
+            <td>cuzcuz</td>
+            <td>09</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela7">
+        <tr>
+            <th>horario</th>
+            <th>materia</th>
+        </tr>
+
+        <tr>
+            <td>13:00</td>
+            <td>matematica</td>
+        </tr>
+
+        <tr>
+            <td>14:00</td>
+            <td>geografia</td>
+        </tr>
+
+        <tr>
+            <td>16:00</td>
+            <td>portugues</td>
+        </tr>
+
+        <tr>
+            <td>17:00</td>
+            <td>ingles</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela8">
+        <tr>
+            <th>
+                time
+            </th>
+            <th>pontos</th>
+            <th>colocação</th>
+        </tr>
+
+        <tr>
+            <td>são paulo</td>
+            <td>2</td>
+            <td>9°</td>
+        </tr>
+
+        <tr>
+            <td>corintians</td>
+            <td>2</td>
+            <td>1°</td>
+        </tr>
+
+        <tr>
+            <td>palmeiras</td>
+            <td>3</td>
+            <td>2°</td>
+        </tr>
+    
+    </table><br><br>
+
+    <table class="tabela9">
+        <tr>
+            <th>produto</th>
+            <th>preço</th>
+        </tr>
+
+        <tr>
+            <td>abacaxi</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>abacati</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>toddy</td>
+            <td>6,00</td>
+        </tr>
+
+        <tr>
+            <td>nescau</td>
+            <td>6,00</td>
+        </tr>
+
+        <tr>
+            <td>banana</td>
+            <td>5,00</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela10">
+        <tr>
+            <th>filme</th>
+            <th>ano de lançamento</th>
+        </tr>
+
+        <tr>
+            <td>demon slayer</td>
+            <td>2025</td>
+        </tr>
+
+        <tr>
+            <td>as torres gemeas</td>
+            <td>2006</td>
+        </tr>
+
+        <tr>
+            <td>indiona jones</td>
+            <td>2023</td>
+        </tr>
+
+        <tr>
+            <td>carros 3</td>
+            <td>2017</td>
+        </tr>
+    </table><br><br>
+
+    <table class="tabela11">
+
+        <tr>
+            <th>fruta</th>
+            <th>cor</th>
+        </tr>
+
+        <tr>
+            <td>banana</td>
+            <td>banana</td>
+
+        </tr>
+
+        <tr>
+            <td>maça</td>
+            <td>vermelho</td>
+        </tr>
+
+        <tr>
+            <td>laranja</td>
+            <td>laranja</td>
+        </tr>
+
+        <tr>
+            <td>morango</td>
+            <td>vermelho</td>
+        </tr>
+
+        <tr>
+            <td>kiwi</td>
+            <td>verde</td>
+        </tr>
+
+
+
+    </table><br><br>
+
+    <table class="tabela12">
+
+        <tr>
+            <th><strong>1</strong></th>
+        <th><strong>2</strong></th>
+        <th><strong>3</strong></th>
+        </tr>
+
+        <tr>
+            <td><strong>1x1=1</strong></td>
+            <td><strong>1x2=2</strong></td>
+            <td><strong>1x3=3</strong></td>
+            
+        </tr>
+
+        <tr>
+            <td><strong>2x1=2</strong></td>
+            <td><strong>2x2=4</strong></td>
+            <td><strong>2x3=6</strong></td>
+        </tr>
+
+        <tr>
+            <td><strong>3x1=3</strong></td>
+            <td><strong>3x2=6</strong></td>
+            <td><strong>3x3=9</strong></td>
+        </tr>
+
+        <tr><td><strong>4x1=4</strong></td>
+        <td><strong>4x2=8</strong></td>
+        <td><strong>4x3=12</strong></td></tr>
+
+        <tr>
+            <td><strong>5x1=5</strong></td>
+            <td><strong>5x2=10</strong></td>
+            <td><strong>5x3=15</strong></td>
+        </tr>
+       
+    
+
+    </table><br><br>
+
+
+  <table class="tabela13">
+    <tr>
+      <th>Matéria</th>
+      <th>Professor</th>
+    </tr>
+    <tr>
+      <td>Química</td>
+      <td>Prof. marcos</td>
+    </tr>
+    <tr>
+      <td>Geometria</td>
+      <td>Prof. abel</td>
+    </tr>
+    <tr>
+      <td>Literatura Brasileira</td>
+      <td>Prof. julia</td>
+    </tr>
+    <tr>
+      <td>Educação fisica</td>
+      <td>Prof. rios</td>
+    </tr>
+  </table><br><br>
+
+  
+<table class="tabela14">
+  <tr>
+    <th>Funcionário</th>
+    <th>Cargo</th>
+  </tr>
+  <tr>
+    <td>livia duart</td>
+    <td>Analista</td>
+  </tr>
+  <tr>
+    <td>marcos</td>
+    <td>Designer</td>
+  </tr>
+  <tr>
+    <td>Julia</td>
+    <td>Gerente</td>
+  </tr>
+  <tr>
+    <td>gustavo oliveira</td>
+    <td>Desenvolvedor</td>
+  </tr>
+</table><br><br>
+
+
+<table class="tabela15">
+  <tr>
+    <th>Prato</th>
+    <th>Preço</th>
+  </tr>
+  <tr>
+    <td>Feijoada Completa</td>
+    <td>R$ 28,90</td>
+  </tr>
+  <tr>
+    <td>Moqueca de Peixe</td>
+    <td>R$ 34,50</td>
+  </tr>
+  <tr>
+    <td>Risoto de Cogumelos</td>
+    <td>R$ 26,00</td>
+  </tr>
+  <tr>
+    <td>Lasanha à Bolonhesa</td>
+    <td>R$ 24,75</td>
+  </tr>
+  <tr>
+    <td>Salada Tropical</td>
+    <td>R$ 18,40</td>
+  </tr>
+</table><br><br>
+
+
+<table class="tabela16">
+  <tr>
+    <th>Dia</th>
+    <th>Evento</th>
+    <th>Local</th>
+  </tr>
+  <tr>
+    <td>12/10</td>
+    <td>Feira Cultural</td>
+    <td>Praça Central</td>
+  </tr>
+  <tr>
+    <td>20/10</td>
+    <td>Palestra de Tecnologia</td>
+    <td>Auditório Municipal</td>
+  </tr>
+  <tr>
+    <td>25/10</td>
+    <td>Show Beneficente</td>
+    <td>Teatro Principal</td>
+  </tr>
+</table><br><br>
+
+
+<table class="tabela17">
+  <tr>
+    <th>Aluno</th>
+    <th>Nota Final</th>
+  </tr>
+  <tr>
+    <td>abel soares</td>
+    <td>9,5</td>
+  </tr>
+  <tr>
+    <td>Marcos vinicius</td>
+    <td>8,0</td>
+  </tr>
+  <tr>
+    <td>livia duart</td>
+    <td>7,7</td>
+  </tr>
+  <tr>
+    <td>julia marciano</td>
+    <td>6,8</td>
+  </tr>
+</table><br><br>
+
+
+<table class="tabela18">
+  <tr>
+    <th>País</th>
+    <th>Capital</th>
+  </tr>
+  <tr>
+    <td>BRASIL</td>
+    <td>BRASÍLIA</td>
+  </tr>
+  <tr>
+    <td>JAPÃO</td>
+    <td>TÓQUIO</td>
+  </tr>
+  <tr>
+    <td>CANADÁ</td>
+    <td>OTTAWA</td>
+  </tr>
+  <tr>
+    <td>FRANÇA</td>
+    <td>PARIS</td>
+  </tr>
+</table><br><br>
+
+<table class="tabela19">
+  <tr>
+    <th>Livro</th>
+    <th>Autor</th>
+  </tr>
+  <tr>
+    <td>Aventura no Espaço</td>
+    <td>abel soares</td>
+  </tr>
+  <tr>
+    <td>Segredos do Bosque</td>
+    <td>Maria rios</td>
+  </tr>
+  <tr>
+    <td>O Último Feitiço</td>
+    <td>Gustavo oliveira</td>
+  </tr>
+</table><br><br>
+
+<table class="tabela20">
+  <tr>
+    <th>Jogo</th>
+    <th>Plataforma</th>
+    <th>Gênero</th>
+  </tr>
+  <tr>
+    <td>Valorant</td>
+    <td>PC</td>
+    <td>Tiro</td>
+  </tr>
+  <tr>
+    <td>Minecraft</td>
+    <td>Multi</td>
+    <td>Sandbox</td>
+  </tr>
+  <tr>
+    <td>FIFA 23</td>
+    <td>PS5</td>
+    <td>Esporte</td>
+  </tr>
+</table><br><br>
+
+
+
+</body>
+</html>
+
+
+
+
+
+    
+
+
+
+
+
+</body>
+</html>
