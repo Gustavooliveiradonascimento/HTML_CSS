@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Exercício 8 - Blog</title>
+  <style>
+    body{font-family:Arial, sans-serif;margin:0;background:#f4f6f8;color:#222;}
+    header{background:#004d99;color:#fff;padding:15px;}
+    header .logo{font-weight:bold;font-size:1.2em;}
+    nav ul{list-style:none;padding:0;display:flex;gap:10px;margin:10px 0;}
+    nav a{color:#fff;text-decoration:none;}
+    .container{display:flex;gap:20px;padding:20px;}
+    main{flex:3;}
+    aside{flex:1;background:#fff;padding:15px;border-radius:8px;}
+    article{background:#fff;padding:15px;border-radius:8px;margin-bottom:15px;}
+    footer{background:#222;color:#fff;text-align:center;padding:10px;margin-top:20px;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Meu Blog</div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main id="posts">
+      <article>
+        <header><h2>Título do Post 1</h2><p>Publicado em <time datetime="2025-06-01">1 de junho de 2025</time></p></header>
+        <section><p>Conteúdo do post 1 — primeiro parágrafo.</p></section>
+        <section><p>Conteúdo do post 1 — segundo parágrafo.</p></section>
+        <p><small>© 2025 Meu Blog | Contato: email@exemplo.com</small></p>
+      </article>
+
+      <article>
+        <header><h2>Título do Post 2</h2><p>Publicado em <time datetime="2025-05-15">15 de maio de 2025</time></p></header>
+        <section><p>Conteúdo do post 2.</p></section>
+        <p><small>© 2025 Meu Blog | Contato: email@exemplo.com</small></p>
+      </article>
+
+      <article>
+        <header><h2>Título do Post 3</h2><p>Publicado em <time datetime="2025-04-10">10 de abril de 2025</time></p></header>
+        <section><p>Conteúdo do post 3.</p></section>
+        <p><small>© 2025 Meu Blog | Contato: email@exemplo.com</small></p>
+      </article>
+    </main>
+
+    <aside>
+      <h3>Posts Populares</h3>
+      <ul>
+        <li><a href="#">Post popular 1</a></li>
+        <li><a href="#">Post popular 2</a></li>
+        <li><a href="#">Post popular 3</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Desenvolvido por Gustavo Oliveira – © 2025</p>
+  </footer>
+</body>
+</html>
